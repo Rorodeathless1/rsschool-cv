@@ -29,7 +29,6 @@ body {
   min-width: 320px;
 }
 
-
 header {
   padding: 20px 0; 
 }
@@ -53,12 +52,73 @@ h1 {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); 
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
 
+.main-nav {
+   margin: 20px 0;
+}
 
+.main-nav ul {
+  list-style-type: none;
+  padding: 20px; 
 
-      
+  display: flex; 
+  gap: 5px;
+  justify-content: center;
+  flex-wrap: wrap; 
 
-  
- 
+  background-color: aquamarine; 
+  border-radius: 28px; 
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25); 
+}
 
-     
+.main-nav li {
+  background-color: #e6e6e6; 
+  border-radius: 28px; 
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+  padding: 10px 20px; 
+  margin: 0 5px; 
+}
+
+.main-nav a {
+  color: #0f0e0e; 
+  text-decoration: none; 
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  white-space: nowrap; 
+}
+
+h2 {
+  text-align: center;
+  color: #0f0e0e; 
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); 
+  margin-top: 40px; 
+  margin-bottom: 15px; 
+}
+
+.code-block-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.code-block {
+  background-color: #f4f4f4; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  padding: 15px; 
+  overflow-x: auto; 
+}
+
+.code-block pre {
+  margin: 0; 
+}
+
+.code-block code {
+  font-family: 'Courier New', Courier, monospace; 
+  color: #333;
+}
+
